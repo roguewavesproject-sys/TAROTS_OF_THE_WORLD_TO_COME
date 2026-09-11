@@ -1,0 +1,142 @@
+{
+  "deck_name": "Rogue Waves",
+  "version": "1.0.0",
+  "arcana": "Major Arcana",
+  "card_count": 22,
+  "orientation_rule": "50% upright / 50% reversed",
+  "draw_without_replacement": true,
+  "cards": [
+    {
+      "id": 0,
+      "name": "Il Matto",
+      "image": "cards/00.webp",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "name": "Il Mago",
+      "image": "cards/01.webp",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "name": "La Sacerdotessa",
+      "image": "cards/02.webp",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "name": "L'Imperatrice",
+      "image": "cards/03.webp",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "name": "L'Imperatore",
+      "image": "cards/04.webp",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "name": "Il Papa",
+      "image": "cards/05.webp",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "name": "L3 Amanti",
+      "image": "cards/06.webp",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "name": "Il Carro",
+      "image": "cards/07.webp",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "name": "La Giustizia",
+      "image": "cards/08.webp",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "name": "L'Eremita",
+      "image": "cards/09.webp",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "name": "La Ruota",
+      "image": "cards/10.webp",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "name": "La Forza",
+      "image": "cards/11.webp",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "name": "L'Appeso",
+      "image": "cards/12.webp",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "name": "La Morte",
+      "image": "cards/13.webp",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "name": "La Temperanza",
+      "image": "cards/14.webp",
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "name": "Il Diavolo",
+      "image": "cards/15.webp",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "name": "La Torre",
+      "image": "cards/16.webp",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "name": "La Stella",
+      "image": "cards/17.webp",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "name": "La Luna",
+      "image": "cards/18.webp",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "name": "Il Sole",
+      "image": "cards/19.webp",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "name": "Il Giudizio",
+      "image": "cards/20.webp",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "name": "Il Mondo",
+      "image": "cards/21.webp",
+      "notes": ""
+    }
+  ]
+}

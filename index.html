@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090909">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Tarocchi">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<title>Tarocchi del Mondo che verrà</title>
+<style>
+:root{
+  --bg:#090909; --panel:rgba(20,20,20,.90); --text:#f0ece3;
+  --muted:#96928a; --gold:#c69b49; --gold2:#8d6d35; --border:#39332b;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; color:var(--text);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:
+    radial-gradient(circle at 50% -10%,rgba(198,155,73,.08),transparent 38%),
+    linear-gradient(180deg,#080808,#101010 55%,#080808);
+  min-height:100vh;
+}
+body:before{
+  content:""; position:fixed; inset:0; pointer-events:none; opacity:.10;
+  background-image:repeating-radial-gradient(circle at 0 0,rgba(255,255,255,.1) 0 1px,transparent 1px 3px);
+  background-size:4px 4px;
+}
+main{
+  max-width:1160px;
+  margin:auto;
+  padding:
+    calc(46px + env(safe-area-inset-top))
+    calc(24px + env(safe-area-inset-right))
+    calc(60px + env(safe-area-inset-bottom))
+    calc(24px + env(safe-area-inset-left));
+  position:relative
+}
+header{text-align:center;margin-bottom:30px;animation:fade .8s ease both}
+h1{
+  margin:0;color:var(--gold);text-transform:uppercase;
+  font-size:clamp(30px,5vw,58px);letter-spacing:.02em
+}
+.sub{
+  margin-top:10px;color:var(--muted);font-size:12px;
+  letter-spacing:.25em;text-transform:uppercase
+}
+.controls{
+  display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;
+  background:var(--panel);border:1px solid var(--border);border-radius:16px;
+  padding:14px;box-shadow:0 20px 55px rgba(0,0,0,.45);
+  backdrop-filter:blur(8px);animation:rise .7s .1s ease both
+}
+button,select{
+  min-height:44px;background:#151515;color:var(--text);border:1px solid #484036;
+  padding:10px 14px;border-radius:10px;font-size:15px
+}
+button{cursor:pointer;transition:.18s ease}
+button:hover{border-color:var(--gold2);background:#1c1a17;transform:translateY(-1px)}
+.primary{color:var(--gold);border-color:var(--gold2)}
+.active{background:rgba(198,155,73,.12);border-color:var(--gold);color:var(--gold)}
+.status{width:100%;text-align:center;color:var(--muted);font-size:13px;letter-spacing:.07em}
+.instruction{
+  text-align:center;margin:34px 0 14px;color:var(--gold);font-size:12px;
+  letter-spacing:.26em;text-transform:uppercase;opacity:0;transition:opacity .35s ease
+}
+.instruction.visible{opacity:1}
+.grid{
+  margin-top:18px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,250px);
+  justify-content:center;
+  gap:26px;
+  align-items:start
+}
+.grid.four-spread{
+  grid-template-columns:repeat(3,250px);
+  grid-template-areas:
+    ". setting ."
+    "card2 card3 card4";
+}
+.grid.four-spread .card-shell:nth-child(1){grid-area:setting}
+.grid.four-spread .card-shell:nth-child(2){grid-area:card2}
+.grid.four-spread .card-shell:nth-child(3){grid-area:card3}
+.grid.four-spread .card-shell:nth-child(4){grid-area:card4}
+
+.spread-role{
+  text-align:center;
+  color:var(--gold);
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  margin-bottom:9px;
+  min-height:15px;
+}
+.empty{
+  margin-top:38px;padding:42px 30px;border:1px dashed #403a31;border-radius:16px;
+  color:var(--muted);text-align:center;background:rgba(255,255,255,.01)
+}
+.card-shell{
+  perspective:1200px;
+  animation:cardArrive .6s cubic-bezier(.2,.75,.25,1) both;
+  animation-delay:var(--delay,0ms)
+}
+.card-button{
+  width:100%;padding:0;border:0;background:transparent;display:block;cursor:pointer
+}
+.card-button:focus-visible{outline:2px solid var(--gold);outline-offset:5px}
+.card-rotator{
+  position:relative;width:100%;aspect-ratio:1117 / 1571;
+  transform-style:preserve-3d;
+  transition:transform .9s cubic-bezier(.22,.61,.36,1)
+}
+.card-shell.revealed .card-rotator{transform:rotateY(180deg)}
+.face{
+  position:absolute;inset:0;border-radius:14px;overflow:hidden;
+  backface-visibility:hidden;border:1px solid var(--gold2);
+  box-shadow:0 18px 40px rgba(0,0,0,.5);background:#111
+}
+.face img{
+  width:100%;
+  height:100%;
+  object-position:center center;
+  display:block;
+  background:#080808;
+}
+.back img{
+  object-fit:cover;
+}
+.front img{
+  object-fit:contain;
+}
+.back:after{
+  content:"";position:absolute;inset:0;
+  box-shadow:inset 0 0 0 1px rgba(198,155,73,.23), inset 0 0 30px rgba(0,0,0,.35)
+}
+.front{transform:rotateY(180deg)}
+.front img.reversed{transform:rotate(180deg)}
+.meta{
+  min-height:62px;padding-top:12px;text-align:center;
+  opacity:0;transform:translateY(6px);
+  transition:opacity .5s ease .35s,transform .5s ease .35s
+}
+.card-shell.revealed .meta{opacity:1;transform:translateY(0)}
+.name{font-weight:650;letter-spacing:.02em}
+.orientation{font-size:13px;color:var(--gold);margin-top:4px}
+.footer-note{
+  text-align:center;color:#8c7a58;margin-top:38px;
+  font-family:Georgia,serif;font-style:italic;letter-spacing:.08em;opacity:.75
+}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes cardArrive{from{opacity:0;transform:translateY(18px) scale(.985)}to{opacity:1;transform:none}}
+@media(max-width:820px){
+  .grid.four-spread{
+    grid-template-columns:repeat(2,minmax(150px,220px));
+    grid-template-areas:
+      "setting setting"
+      "card2 card3"
+      "card4 card4";
+  }
+  .grid.four-spread .card-shell:nth-child(1),
+  .grid.four-spread .card-shell:nth-child(4){
+    justify-self:center;
+    width:220px;
+  }
+}
+
+@media(max-width:640px){
+  main{padding:30px 14px 44px}
+  .sub{letter-spacing:.14em;line-height:1.6}
+  .controls>*{flex:1 1 auto}
+  .status{flex-basis:100%}
+  .grid{
+    grid-template-columns:repeat(auto-fit,minmax(150px,220px));
+    justify-content:center;
+    gap:16px
+  }
+}
+@media(max-width:420px){
+  .grid{grid-template-columns:minmax(0,220px);justify-content:center}
+  .grid.four-spread{
+    grid-template-columns:minmax(0,220px);
+    grid-template-areas:
+      "setting"
+      "card2"
+      "card3"
+      "card4";
+  }
+  .grid.four-spread .card-shell{
+    width:auto;
+    justify-self:stretch;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1 id="deckTitle">Tarocchi del Mondo che verrà</h1>
+  <div class="sub">Tarocchi del Mondo che verrà // Tarots of the World to come</div>
+</header>
+
+<div class="controls">
+  <button id="single" class="primary">Carta singola</button>
+  <button id="fourSpread" class="primary">Stesa 4 carte</button>
+  <button id="reset">Azzera</button>
+  <button id="soundToggle" aria-pressed="false">Suono: off</button>
+  <span class="status" id="status">Pronto</span>
+</div>
+
+<div id="instruction" class="instruction">Clicca su una carta per rivelarla</div>
+
+<div id="result"></div>
+
+<div class="footer-note">Quale futuro è possibile immaginare?</div>
+</main>
+
+<script>
+let deckData=null;
+let soundEnabled=false;
+let audioCtx=null;
+
+async function loadDeck(){
+  try{
+    const r=await fetch("deck.json");
+    if(!r.ok) throw new Error("deck.json non trovato");
+    deckData=await r.json();
+    if(deckData.deck_name){
+      document.getElementById("deckTitle").textContent=deckData.deck_name;
+      document.title=deckData.deck_name;
+    }
+    document.getElementById("status").textContent=
+      `${deckData.deck_name||"Mazzo"} · v${deckData.version||"1.0"}`;
+  }catch(e){
+    document.getElementById("status").textContent="Errore caricamento mazzo";
+    document.getElementById("result").innerHTML="";
+  }
+}
+
+function secureRandomInt(max){
+  if(max<=0) return 0;
+  const limit=Math.floor(0x100000000/max)*max;
+  const a=new Uint32Array(1);
+  do{crypto.getRandomValues(a)}while(a[0]>=limit);
+  return a[0]%max;
+}
+
+function shuffledCopy(arr){
+  const a=[...arr];
+  for(let i=a.length-1;i>0;i--){
+    const j=secureRandomInt(i+1);
+    [a[i],a[j]]=[a[j],a[i]];
+  }
+  return a;
+}
+
+let ambientAudio=null;
+let ambientFadeTimer=null;
+
+function initAmbientAudio(){
+  if(ambientAudio) return;
+  ambientAudio=new Audio("assets/ambient.mp3");
+  ambientAudio.loop=true;
+  ambientAudio.preload="auto";
+  ambientAudio.volume=0;
+}
+
+function clearAmbientFade(){
+  if(ambientFadeTimer){
+    clearInterval(ambientFadeTimer);
+    ambientFadeTimer=null;
+  }
+}
+
+function fadeAmbientTo(target,duration=2500,stopAtEnd=false){
+  initAmbientAudio();
+  clearAmbientFade();
+
+  const start=ambientAudio.volume;
+  const steps=40;
+  const stepMs=Math.max(20,Math.floor(duration/steps));
+  let current=0;
+
+  ambientFadeTimer=setInterval(()=>{
+    current++;
+    const t=current/steps;
+    const next=start+(target-start)*t;
+    ambientAudio.volume=Math.max(0,Math.min(1,next));
+
+    if(current>=steps){
+      clearAmbientFade();
+      ambientAudio.volume=target;
+      if(stopAtEnd && target===0){
+        ambientAudio.pause();
+        ambientAudio.currentTime=0;
+      }
+    }
+  },stepMs);
+}
+
+async function startAmbient(){
+  initAmbientAudio();
+  try{
+    await ambientAudio.play();
+    fadeAmbientTo(0.24,2500,false);
+  }catch(e){
+    soundEnabled=false;
+    const b=document.getElementById("soundToggle");
+    b.textContent="Suono: off";
+    b.classList.remove("active");
+    b.setAttribute("aria-pressed","false");
+  }
+}
+
+function stopAmbient(){
+  if(!ambientAudio) return;
+  fadeAmbientTo(0,2200,true);
+}
+
+function drawSpecific(n,mode="single"){
+  if(!deckData) return;
+  n=Math.max(1,Math.min(n,deckData.cards.length));
+  const picked=shuffledCopy(deckData.cards).slice(0,n).map(card=>({
+    ...card,reversed:secureRandomInt(2)===1
+  }));
+
+  const result=document.getElementById("result");
+  result.className=mode==="four" ? "grid four-spread" : "grid";
+  result.innerHTML="";
+  document.getElementById("instruction").classList.add("visible");
+
+  picked.forEach((c,index)=>{
+    const shell=document.createElement("article");
+    shell.className="card-shell";
+    shell.style.setProperty("--delay",`${index*90}ms`);
+
+    if(mode==="four"){
+      const role=document.createElement("div");
+      role.className="spread-role";
+      role.textContent=index===0 ? "Setting" : "";
+      shell.appendChild(role);
+    }
+
+    const button=document.createElement("button");
+    button.className="card-button";
+    button.type="button";
+    button.setAttribute("aria-label",`Rivela la carta ${index+1}`);
+
+    const rotator=document.createElement("div");
+    rotator.className="card-rotator";
+
+    const back=document.createElement("div");
+    back.className="face back";
+    const backImg=document.createElement("img");
+    backImg.src="assets/dorso_tarocchi.jpg";
+    backImg.alt="Dorso della carta";
+    back.appendChild(backImg);
+
+    const front=document.createElement("div");
+    front.className="face front";
+    const img=document.createElement("img");
+    img.src=c.image;
+    img.alt=c.name;
+    if(c.reversed) img.classList.add("reversed");
+    img.onerror=()=>{
+      img.removeAttribute("src");
+      img.alt="Immagine mancante: "+c.image;
+    };
+    front.appendChild(img);
+
+    rotator.append(back,front);
+    button.appendChild(rotator);
+
+    const meta=document.createElement("div");
+    meta.className="meta";
+    const name=document.createElement("div");
+    name.className="name";
+    name.textContent=`${String(c.id).padStart(2,"0")} · ${c.name}`;
+    const orient=document.createElement("div");
+    orient.className="orientation";
+    orient.textContent=c.reversed?"Rovesciata":"Dritta";
+    meta.append(name,orient);
+
+    button.addEventListener("click",()=>{
+      if(shell.classList.contains("revealed")) return;
+      shell.classList.add("revealed");
+      button.setAttribute("aria-label",`${c.name}, ${c.reversed?"rovesciata":"dritta"}`);
+    });
+
+    shell.append(button,meta);
+    result.appendChild(shell);
+  });
+}
+
+document.getElementById("single").addEventListener("click",()=>{
+  drawSpecific(1,"single");
+});
+
+document.getElementById("fourSpread").addEventListener("click",()=>{
+  drawSpecific(4,"four");
+});
+document.getElementById("reset").addEventListener("click",()=>{
+  const result=document.getElementById("result");
+  result.className="";
+  result.innerHTML="";
+  document.getElementById("instruction").classList.remove("visible");
+});
+document.getElementById("soundToggle").addEventListener("click",async e=>{
+  soundEnabled=!soundEnabled;
+  e.currentTarget.textContent=`Suono: ${soundEnabled?"on":"off"}`;
+  e.currentTarget.classList.toggle("active",soundEnabled);
+  e.currentTarget.setAttribute("aria-pressed",String(soundEnabled));
+
+  if(soundEnabled){
+    await startAmbient();
+  }else{
+    stopAmbient();
+  }
+});
+
+loadDeck();
+</script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js").catch(() => {});
+  });
+}
+</script>
+
+</body>
+</html>

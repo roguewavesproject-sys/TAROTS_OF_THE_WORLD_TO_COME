@@ -1,0 +1,22 @@
+00.webp  →  Il Matto
+01.webp  →  Il Mago
+02.webp  →  La Sacerdotessa
+03.webp  →  L'Imperatrice
+04.webp  →  L'Imperatore
+05.webp  →  Il Papa
+06.webp  →  L3 Amanti
+07.webp  →  Il Carro
+08.webp  →  La Giustizia
+09.webp  →  L'Eremita
+10.webp  →  La Ruota della Fortuna
+11.webp  →  La Forza
+12.webp  →  L'Appeso
+13.webp  →  La Morte
+14.webp  →  La Temperanza
+15.webp  →  Il Diavolo
+16.webp  →  La Torre
+17.webp  →  La Stella
+18.webp  →  La Luna
+19.webp  →  Il Sole
+20.webp  →  Il Giudizio
+21.webp  →  Il Mondo
