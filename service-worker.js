@@ -1,4 +1,4 @@
-const CACHE_NAME = "tarocchi-mondo-v2";
+const CACHE_NAME = "tarocchi-mondo-v1-1-descrizioni";
 
 const CORE = [
   "./",
