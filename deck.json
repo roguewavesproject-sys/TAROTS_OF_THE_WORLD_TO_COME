@@ -70,56 +70,56 @@
       "id": 8,
       "name": "La Giustizia",
       "image": "cards/08.webp",
-      "description": "La Giustizia mette in relazione azioni e conseguenze. Chiede misura, lucidità e responsabilità, cercando un equilibrio che non sia immobilità ma proporzione.",
-      "upright": "Chiarezza, equità, responsabilità, decisione ponderata e capacità di vedere una situazione senza sottrarsi alle conseguenze.",
-      "reversed": "Parzialità, autoinganno, squilibrio, giudizio eccessivo o difficoltà ad assumersi la propria parte di responsabilità."
+      "description": "Si dice che la giustizia sia cieca, imparziale. Ma spesso questa uguaglianza di fronte alla legge è solo una facciata, la punta dell’iceberg. Nel mondo della finitudine, la corsa alle risorse la vince il più forte. Anche la protezione degli ecosistemi spesso passa dalla creazione di nuovi confini e barriere, da esodi forzati, da diritti d’utilizzo della terra dati a chi non l’abita. Nel mito delle metamorfosi, Narciso viene punito dalla dea di Ramnunte per non aver ricambiato l’amore. La giustizia economica, sociale e climatica passa anche dal ricambiare l’amore come specie umana e l’amore del pianeta che ci ospita. Erigere muri, creare barriere, isolarsi in mezzo a un oceano destinato a inghiottire le terre emerse non ci salverà dal redde rationem che la carta numero venti del mazzo chiederà a ognuno di noi.",
+      "upright": "Agisco con correttezza e non cerco scorciatoie.",
+      "reversed": "Penso solo a me stesso, senza considerazione dei sacrifici che le mie azioni e scelte possono imporre agli altri e al pianeta."
     },
     {
       "id": 9,
       "name": "L’Eremita",
       "image": "cards/09.webp",
-      "description": "L’Eremita è ricerca interiore e rallentamento. Si allontana dal rumore per distinguere ciò che conta, trasformando esperienza e solitudine in orientamento.",
-      "upright": "Introspezione, prudenza, maturazione, ricerca, autonomia e bisogno di tempo per comprendere prima di procedere.",
-      "reversed": "Isolamento, chiusura, eccessiva cautela, distanza emotiva o permanenza troppo lunga in una fase di ritiro."
+      "description": "L’Eremita rappresenta la figura maschile che, consapevole dei propri limiti e di ciò che incarna nella nostra società, si ritira in un momento più o meno lungo di meditazione e studio del sé. La solitudine diventa scoperta, le ore lontano dalla società dialogo con i propri pensieri. Come l’ape legnaiola, che costruisce il suo nido nel legno tenero (anche marcescente), solitaria ma funzionale al ciclo naturale dell’impollinazione e della vita, anche l’Eremita, terminato il periodo di raccoglimento e riflessione, ritornerà nella comunità di appartenenza come rinato. Il dono della conoscenza e delle proprie esperienze, trasmesso con gentilezza e non come imposizione, è il fulcro della trasmissione di generazione in generazione di saperi ancestrali e un auspicio per un futuro di collaborazione e coesistenza.",
+      "upright": "Cresco a livello interiore, migliorandomi costantemente come persona.",
+      "reversed": "Vivo nell'individualismo, ponendomi egoisticamente davanti a ogni cosa."
     },
     {
       "id": 10,
-      "name": "La Ruota della Fortuna",
+      "name": "La Ruota",
       "image": "cards/10.webp",
-      "description": "La Ruota della Fortuna rappresenta cicli, mutamento e condizioni che non dipendono interamente dalla volontà individuale. Ricorda che ogni equilibrio è temporaneo.",
-      "upright": "Cambiamento, svolta, opportunità, sincronismo e capacità di adattarsi a un ciclo che si sta muovendo.",
-      "reversed": "Resistenza al cambiamento, sensazione di perdita di controllo, ripetizione di uno schema o difficoltà a riconoscere il momento del passaggio."
+      "description": "Nel diario collettivo che ognuno di noi contribuisce a scrivere, ogni azione ha una sua conseguenza. La ruota del destino gira, alternando fortune a disgrazie, progresso e crescita a distruzione di intere civiltà. Come nell’Apocalisse di San Giovanni, i quattro cavalieri sono i boia designati a punire le nostre azioni meno meritevoli. Per ogni risorsa predata, essere vivente sacrificato, devastazione per il mero lusso e agio, il pianeta ci ricorda la nostra mortalità. Possiamo ballare con la morte, giocare con lei, farci accompagnare per mano nella danza che accompagna i cicli del pianeta Terra e fare dono della nostra stessa vita alle generazioni future. Oppure possiamo provare a interrompere il cerchio, ambire all’immortalità che tutto prende con i propri artigli.",
+      "upright": "Ci avviciniamo alla fine dei nostri giorni senza far nulla per cambiare la nostra vita.",
+      "reversed": "Consapevoli che siamo gli artefici del nostro destino, proviamo a influenzare il fato con le nostre azioni."
     },
     {
       "id": 11,
       "name": "La Forza",
       "image": "cards/11.webp",
-      "description": "La Forza è potenza governata attraverso presenza e relazione, non attraverso dominio brutale. Parla di coraggio, desiderio e capacità di stare con ciò che è intenso.",
-      "upright": "Coraggio, vitalità, autocontrollo, pazienza e capacità di trasformare un impulso in energia creativa.",
-      "reversed": "Insicurezza, rabbia trattenuta o incontrollata, esaurimento, fragilità dell’autostima o tentativo di dominare ciò che richiederebbe ascolto."
+      "description": "Cos’è la forza, la potenza, senza controllo? La durezza del diamante artificiale, l’elasticità del bambù, la memoria e persistenza dei dati salvati in un hard disk. Ma la forza senza la capacità di padroneggiarla è mero esercizio di potere, tirannia e dispotismo verso i più deboli. Far crescere il corpo nutrendo la mente. Mens sana in corpore sano. La carta della Forza ci ricorda di allenare spirito e fisico, lungo percorsi paralleli di crescita ed evoluzione. Pescare la carta della Forza in una lettura può mitigare gli autoritarismi del Papa e dell’Imperatore/Imperatrice, evitando derive patriarcali e riconoscendo il primato della ragione sugli istinti primordiali.",
+      "upright": "Troviamo in noi la forza che serve, consapevoli che anche una goccia di acqua può scavare la pietra.",
+      "reversed": "Pensiamo di essere impotenti di fronte a quello che accade intorno a noi."
     },
     {
       "id": 12,
       "name": "L’Appeso",
       "image": "cards/12.webp",
-      "description": "L’Appeso sospende il movimento abituale per cambiare prospettiva. È una pausa che può sembrare perdita di tempo ma permette di vedere ciò che prima restava invisibile.",
-      "upright": "Sospensione, resa consapevole, cambio di prospettiva, attesa fertile e disponibilità a lasciare andare una vecchia posizione.",
-      "reversed": "Stallo, sacrificio sterile, immobilità, vittimismo o resistenza a una trasformazione che richiede di rinunciare al controllo."
+      "description": "Nell’Hávamál Odino si appende all’albero cosmico Yggdrasill per svelare i segreti delle rune, origine di ogni conoscenza e di ogni potere. Il sacrificio del sé per raggiungere stati di coscienza superiori. Ogni studio, ogni momento dedicato al proprio percorso di miglioramento richiede sacrifici, sforzi fisici e mentali. Ogni nuovo tassello nell’apprendimento aggiunge strati di nozioni e allena la mente a nuove logiche, prospettive e visioni.",
+      "upright": "Studiamo e impariamo per evolvere come individui e come specie.",
+      "reversed": "Siamo accecati dall'ignoranza e guidati dall'assenza di consapevolezza."
     },
     {
       "id": 13,
       "name": "La Morte",
       "image": "cards/13.webp",
-      "description": "La Morte indica una trasformazione irreversibile: qualcosa termina perché altro possa emergere. Non parla necessariamente di morte fisica, ma di passaggi, separazioni e rigenerazione.",
-      "upright": "Fine di un ciclo, trasformazione, distacco, pulizia e disponibilità ad attraversare un cambiamento profondo.",
-      "reversed": "Resistenza alla fine, attaccamento, paura del cambiamento o permanenza artificiale in una forma che ha esaurito la propria funzione."
+      "description": "Le macchine dominano i nuovi campi di battaglia, con freddi calcoli matematici e ragionamenti artificiali. La vita e la morte sono decise da un algoritmo. Operatori a distanza o macchinari informatici si ergono a giudici su chi può sopravvivere un altro giorno. Aneliamo a un’esistenza infinita della carne e della mente, ma inventiamo ogni giorno nuovi modi per sterminare la nostra specie. La Morte ci accompagna ovunque, al sicuro nelle nostre case e nelle moderne trincee sorvolate da stormi di droni. Rispettare la Morte significa rispettare la Vita. Ed essere un tutt’uno con le altre specie viventi.",
+      "upright": "So che un giorno morirò e utilizzo al meglio il tempo che mi fu dato in sorte.",
+      "reversed": "Temo la mia morte e faccio di tutto per allontanarla, anche a scapito degli altri."
     },
     {
       "id": 14,
       "name": "La Temperanza",
       "image": "cards/14.webp",
-      "description": "La Temperanza è incontro tra differenze, circolazione e trasformazione graduale. Cerca una composizione viva tra elementi diversi senza cancellarne le specificità.",
-      "upright": "Equilibrio dinamico, cura, integrazione, dialogo, guarigione e capacità di trovare una misura sostenibile tra forze differenti.",
+      "description": "Una delle difficoltà che devono affrontare gli astronauti nello spazio è l’assenza di gravità, la perdita di un punto di riferimento stabile e permanente. La Temperanza è la carta cui rivolgersi quando avvertiamo uno sbilanciamento nelle nostre vite, la perdita della rotta, il terreno che frana sotto i nostri piedi. Affidiamoci al nostro io interiore, centrandoci per ritrovare la connessione con il “qui e ora”. E sollevandoci da terra, con una spinta, osserviamo il pallido punto azzurro che chiamiamo casa.",
+      "upright": "Siamo in equilibrio o ci sforziamo di trovare sempre il nostro centro di gravità.",
       "reversed": "— Questa carta, nel tuo mazzo, viene pescata sempre dritta.",
       "always_upright": true
     },
@@ -127,49 +127,49 @@
       "id": 15,
       "name": "Il Diavolo",
       "image": "cards/15.webp",
-      "description": "Il Diavolo porta alla luce desiderio, materia, potere e legami difficili da riconoscere. Mostra ciò che attrae e trattiene, chiedendo di distinguere piacere, dipendenza e libertà.",
-      "upright": "Desiderio, magnetismo, energia istintiva, rapporto con il corpo e consapevolezza delle proprie ombre e dei propri vincoli.",
-      "reversed": "Liberazione da un legame, oppure negazione dell’ombra, compulsione, vergogna e difficoltà a riconoscere ciò che esercita potere su di noi."
+      "description": "La quindicesima carta degli Arcani Maggiori ci invita a perseverare nella ricerca oltre il muro delle nostre convinzioni, sperimentando senza inibizioni, provando nuovi corsi d’azione, anche sbagliando più e più volte. Attraverso le tenebre della superstizione, accendiamo la scintilla, il lume, che ci consente di osservare davvero, non più solo vedere. Affidarsi alla sola ragione, alla cruda e asettica scienza, non è necessariamente la via del bene. Apprendiamo come fanciulli, senza timore di tentativi ed errori, con la torcia in mano ad illuminare la via.",
+      "upright": "Squarciamo le tenebre dell'ignoranza e non temiamo di sbagliare.",
+      "reversed": "La superstizione e le consuetudini dominano la nostra vita."
     },
     {
       "id": 16,
       "name": "La Torre",
       "image": "cards/16.webp",
-      "description": "La Torre è rottura di una struttura che non riesce più a reggere. L’evento può essere destabilizzante, ma rende visibile ciò che era stato costruito su basi fragili.",
-      "upright": "Rivelazione, crollo di vecchie certezze, cambiamento improvviso e possibilità di ricostruire a partire da condizioni più reali.",
-      "reversed": "Crisi evitata o rimandata, paura del cambiamento, tensione interna oppure tentativo di mantenere in piedi una struttura già compromessa."
+      "description": "Siamo testimoni dei prodigi del progresso, uno sciame brulicante di esseri viventi che raggiunge ogni angolo del globo, piantando le proprie bandiere e costruendo i propri torrioni a presidio del territorio. In un Risiko vivente, giochiamo con i confini e coloriamo le mappe con i colori dei nostri gonfaloni. La Torre di Babele non punta al cielo, ma si estende piatta lungo l’intero globo terracqueo, crucibolo di lingue, tradizioni, culture, religioni, ideali, sogni, ambizioni, costumi. Ricopriamo la terra con strati di cemento e metallo, legno e pietra lavorata, come un alveare che si autoreplica all’infinito. Animali sociali, viviamo solitari in cellette, ognuno con il proprio compito, ognuno con un percorso già tracciato. Costruiamo mondi digitali e sogni artificiali, per alienarci dal pianeta reale che ci ospita. Viviamo in simulazioni della nostra stessa vita, interpretando i nostri simulacri. Spenta la connessione, il castello crolla e rimangono solo macerie. Macerie su cui costruire, per riscoprirsi vivi.\n",
+      "upright": "Collaboriamo e cooperiamo per costruire un futuro migliore.",
+      "reversed": "Costruiamo senza interagire con le altre specie viventi, spinti dall'individualismo."
     },
     {
       "id": 17,
-      "name": "Le Stelle",
+      "name": "La Stella",
       "image": "cards/17.webp",
-      "description": "Le Stelle arrivano dopo la rottura e riaprono lo spazio della fiducia. Parlano di orientamento, vulnerabilità, ispirazione e relazione con qualcosa di più ampio.",
-      "upright": "Speranza, ispirazione, autenticità, apertura, rigenerazione e capacità di immaginare nuovamente un futuro.",
-      "reversed": "Disillusione, perdita di fiducia, difficoltà a immaginare possibilità oppure distanza tra un ideale e la vita concreta."
+      "description": "Esploriamo i cieli fino alle stelle e, seguendo le vie dei grandi cetacei, siamo attratti dalle profondità marine, dove deponiamo enormi cavi per collegare i continenti. Come sopra, così sotto, superiamo ogni volta i nostri limiti in nome della conoscenza e del progresso. Alieni nella nostra stessa casa, ci facciamo guidare dalla luce, che brucia dentro e fuori di noi. Offriamo ex voto, come riconoscimento per essere sopravvissuti un altro giorno, perché il fuoco rubato agli dei non ci consumi. Alla luce delle stelle alziamo gli occhi al cielo, e vediamo noi stessi.",
+      "upright": "Siamo guidati dai nostri sogni.",
+      "reversed": "Non riusciamo a immaginarci una vita diversa da quella attuale."
     },
     {
       "id": 18,
       "name": "La Luna",
       "image": "cards/18.webp",
-      "description": "La Luna attraversa il territorio dell’ambiguità, dell’immaginazione e dell’inconscio. Le forme non sono ancora nitide: occorre procedere riconoscendo emozioni, paure e proiezioni.",
-      "upright": "Intuizione, sogno, sensibilità, immaginazione e disponibilità ad attraversare ciò che non è ancora pienamente comprensibile.",
-      "reversed": "Confusione, paura, autoinganno, ansia, proiezioni o progressiva emersione di qualcosa che prima era nascosto."
+      "description": "Alla luce della luna, ciò che ci circonda assume tratti particolari, nuovi, un punto di vista differente rispetto a ciò che osserviamo alla luce del sole. La luna ci invita a muoverci con cautela e a seguire i sentieri illuminati dalla sua fioca luce. È timore reverenziale quello che chiede, l’avvicinarsi implorante a lei in punta di piedi, con rispetto a gentilezza. La luna da sempre ha guidato l’umanità verso nuovi orizzonti, non solo sul pianeta Terra ma anche oltre le nubi, su su oltre lo spazio conosciuto.  Protagonista di film, canzoni, poesie, saggi, racconti, pièce teatrali, la Luna ci abbraccia con la sua tiepida luce, frescura e riparo nella notte.",
+      "upright": "Alziamo gli occhi al cielo immaginandoci un nuovo futuro.",
+      "reversed": "La paura dell'ignoto ci immobilizza."
     },
     {
       "id": 19,
       "name": "Il Sole",
       "image": "cards/19.webp",
-      "description": "Il Sole porta visibilità, calore e vitalità. Ciò che era nascosto può essere visto e condiviso: è una carta di presenza, relazione e chiarezza.",
-      "upright": "Gioia, energia, chiarezza, successo, apertura e capacità di vivere o condividere qualcosa con maggiore pienezza.",
-      "reversed": "Entusiasmo ridotto, bisogno eccessivo di conferme, esposizione che pesa oppure una chiarezza che tarda ad arrivare."
+      "description": "Non è facile imbrigliare la luce delle stelle, senza rischiare di bruciare come le ali di Icaro. Oggi il sole è per noi vita, ma anche il rischio più grande che incombe sul nostro destino. Dal suo calore traiamo energia, sia fisicamente che attraverso i progressi tecnologici per le forme di energia pulite. Non possiamo pensare a un mondo di sola tenebra, a un pianeta privo dell’energia vitale delle stelle. Ma dobbiamo fare attenzione al dono di Prometeo, per evitare di consumarci come falene con la fiamma.",
+      "upright": "Traiamo energia dalla natura, in armonia con il mondo.",
+      "reversed": "Distruggiamo ciò che abbiamo attorno per rubarne l'energia e accrescere il nostro potere."
     },
     {
       "id": 20,
       "name": "Il Giudizio",
       "image": "cards/20.webp",
-      "description": "Il Giudizio è risveglio e chiamata. Qualcosa del passato viene riletto da una nuova posizione e può finalmente essere integrato, trasformato o lasciato andare.",
-      "upright": "Consapevolezza, rinascita, risposta a una chiamata, riconciliazione con il passato e decisione che apre una nuova fase.",
-      "reversed": "Esitazione, autocritica, paura del giudizio, difficoltà a rispondere a una chiamata o a riconoscere ciò che è ormai evidente."
+      "description": "Il diario che abbiamo iniziato a scrivere, a compilare, con la carta del Matto è ora completo. La nostra vita è giunta alla sua naturale conclusione. Siamo noi i fautori del nostro destino, equilibristi del libero arbitrio e interpreti dello scopo dell’umanità su questa Terra. Come nel mito egizio, il peso delle nostre azioni sarà confrontato con il peso di una piuma, qua metaforicamente unita alla penna che ha vergato il libro della nostra esistenza.",
+      "upright": "Abbiamo scelto il nostro percorso e lo portiamo avanti con consapevolezza.",
+      "reversed": "Temo il giudizio altrui, perchè insicuro o perchè so di aver agito arrecando il male."
     },
     {
       "id": 21,

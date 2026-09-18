@@ -376,7 +376,7 @@ function drawSpecific(n,mode="single"){
   n=Math.max(1,Math.min(n,deckData.cards.length));
   const picked=shuffledCopy(deckData.cards).slice(0,n).map(card=>({
     ...card,
-    reversed: card.always_upright ? false : secureRandomInt(2)===1
+    isReversed: card.always_upright ? false : secureRandomInt(2)===1
   }));
 
   const result=document.getElementById("result");
@@ -416,7 +416,7 @@ function drawSpecific(n,mode="single"){
     const img=document.createElement("img");
     img.src=c.image;
     img.alt=c.name;
-    if(c.reversed) img.classList.add("reversed");
+    if(c.isReversed) img.classList.add("reversed");
     img.onerror=()=>{
       img.removeAttribute("src");
       img.alt="Immagine mancante: "+c.image;
@@ -433,7 +433,7 @@ function drawSpecific(n,mode="single"){
     name.textContent=`${String(c.id).padStart(2,"0")} · ${c.name}`;
     const orient=document.createElement("div");
     orient.className="orientation";
-    orient.textContent=c.reversed?"Rovesciata":"Dritta";
+    orient.textContent=c.isReversed?"Rovesciata":"Dritta";
     meta.append(name,orient);
 
     const meaning=document.createElement("div");
@@ -441,8 +441,8 @@ function drawSpecific(n,mode="single"){
 
     const sections=[
       ["Descrizione generale", c.description || ""],
-      [c.reversed ? "Significato rovesciato" : "Significato dritto",
-       c.reversed ? (c.reversed || "") : (c.upright || "")]
+      [c.isReversed ? "Significato rovesciato" : "Significato dritto",
+       c.isReversed ? (c.reversed || "") : (c.upright || "")]
     ];
 
     sections.forEach(([label,text])=>{
@@ -462,7 +462,7 @@ function drawSpecific(n,mode="single"){
     button.addEventListener("click",()=>{
       if(shell.classList.contains("revealed")) return;
       shell.classList.add("revealed");
-      button.setAttribute("aria-label",`${c.name}, ${c.reversed?"rovesciata":"dritta"}`);
+      button.setAttribute("aria-label",`${c.name}, ${c.isReversed?"rovesciata":"dritta"}`);
     });
 
     shell.append(button,meta,meaning);
