@@ -198,6 +198,53 @@ button:hover{border-color:var(--gold2);background:#1c1a17;transform:translateY(-
 @media(prefers-reduced-motion:reduce){
   *,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}
 }
+
+    .meaning{
+      width:min(100%,560px);
+      margin:14px auto 0;
+      padding:16px 17px 17px;
+      border:1px solid rgba(198,155,73,.30);
+      border-radius:14px;
+      background:rgba(12,12,12,.82);
+      text-align:left;
+      opacity:0;
+      transform:translateY(8px);
+      max-height:0;
+      overflow:hidden;
+      transition:opacity .45s ease, transform .45s ease, max-height .65s ease, padding .45s ease;
+      padding-top:0;
+      padding-bottom:0;
+      pointer-events:none;
+    }
+    .card-shell.revealed .meaning{
+      opacity:1;
+      transform:translateY(0);
+      max-height:900px;
+      padding-top:16px;
+      padding-bottom:17px;
+      pointer-events:auto;
+    }
+    .meaning-section + .meaning-section{margin-top:13px}
+    .meaning-label{
+      color:var(--gold);
+      font-size:.72rem;
+      letter-spacing:.13em;
+      text-transform:uppercase;
+      margin-bottom:5px;
+      font-weight:700;
+    }
+    .meaning-text{
+      color:#d7d2c9;
+      font-size:.93rem;
+      line-height:1.55;
+    }
+    .meaning-current{
+      border-top:1px solid rgba(198,155,73,.22);
+      margin-top:14px;
+      padding-top:13px;
+    }
+    .meaning-current .meaning-text{color:var(--text)}
+
 </style>
 </head>
 <body>
@@ -328,7 +375,8 @@ function drawSpecific(n,mode="single"){
   if(!deckData) return;
   n=Math.max(1,Math.min(n,deckData.cards.length));
   const picked=shuffledCopy(deckData.cards).slice(0,n).map(card=>({
-    ...card,reversed:secureRandomInt(2)===1
+    ...card,
+    reversed: card.always_upright ? false : secureRandomInt(2)===1
   }));
 
   const result=document.getElementById("result");
@@ -388,13 +436,46 @@ function drawSpecific(n,mode="single"){
     orient.textContent=c.reversed?"Rovesciata":"Dritta";
     meta.append(name,orient);
 
+    const meaning=document.createElement("div");
+    meaning.className="meaning";
+
+    const sections=[
+      ["Descrizione generale", c.description || ""],
+      ["Significato dritto", c.upright || ""],
+      ["Significato rovesciato", c.reversed || ""]
+    ];
+
+    sections.forEach(([label,text])=>{
+      const section=document.createElement("div");
+      section.className="meaning-section";
+      const lab=document.createElement("div");
+      lab.className="meaning-label";
+      lab.textContent=label;
+      const txt=document.createElement("div");
+      txt.className="meaning-text";
+      txt.textContent=text;
+      section.append(lab,txt);
+      meaning.appendChild(section);
+    });
+
+    const current=document.createElement("div");
+    current.className="meaning-section meaning-current";
+    const currentLabel=document.createElement("div");
+    currentLabel.className="meaning-label";
+    currentLabel.textContent="Nella pesca";
+    const currentText=document.createElement("div");
+    currentText.className="meaning-text";
+    currentText.textContent=c.reversed ? (c.reversed || "") : (c.upright || "");
+    current.append(currentLabel,currentText);
+    meaning.appendChild(current);
+
     button.addEventListener("click",()=>{
       if(shell.classList.contains("revealed")) return;
       shell.classList.add("revealed");
       button.setAttribute("aria-label",`${c.name}, ${c.reversed?"rovesciata":"dritta"}`);
     });
 
-    shell.append(button,meta);
+    shell.append(button,meta,meaning);
     result.appendChild(shell);
   });
 }
