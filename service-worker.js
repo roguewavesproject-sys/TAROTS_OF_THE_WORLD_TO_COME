@@ -1,4 +1,4 @@
-const CACHE_NAME = "tarocchi-mondo-v1-2-network-first";
+const CACHE_NAME = "tarocchi-mondo-v1-3-audio-fix";
 
 const CORE = [
   "./",
@@ -55,6 +55,11 @@ self.addEventListener("fetch", event => {
 
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
+
+  // L'audio e le richieste Range vengono gestiti direttamente dal browser.
+  if (url.pathname.endsWith("/assets/ambient.mp3") || event.request.headers.has("range")) {
+    return;
+  }
 
   const isAppData =
     event.request.mode === "navigate" ||

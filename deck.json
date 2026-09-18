@@ -1,6 +1,6 @@
 {
   "deck_name": "Tarocchi del Mondo che verrà",
-  "version": "1.1-descrizioni",
+  "version": "1.1",
   "cards": [
     {
       "id": 0,
@@ -8,7 +8,7 @@
       "image": "cards/00.webp",
       "description": "Il matto, il folle, il giullare (Jester in inglese, da qui la raffigurazione della farfalla che ne porta il nome) rappresenta l’inizio di un percorso. Possiamo decidere come affrontare la nostra vita, senza pensieri, con una guida dettagliata del viaggio da intraprendere, in maniera lineare oppure completamente a caso. Siamo artefici del nostro destino, in solitaria oppure con altri compagni di viaggio. La situazione è quella rappresentata dal Mondo, ma il destino è ancora tutto da scrivere, una pagina bianca su cui poter pianificare e raccontare il nostro percorso.",
       "upright": "Davanti a noi vi sono mille strade da intraprendere.",
-      "reversed": "Non sappiamo scegliere, distratti da nuovi inizi o privi da una visione a lungo termine."
+      "reversed": "Non sappiamo scegliere, distratti da nuovi inizi o privi di una visione a lungo termine."
     },
     {
       "id": 1,
