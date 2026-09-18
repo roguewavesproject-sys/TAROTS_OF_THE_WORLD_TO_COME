@@ -1,4 +1,4 @@
-const CACHE_NAME = "tarocchi-mondo-v1-1-descrizioni";
+const CACHE_NAME = "tarocchi-mondo-v1-2-network-first";
 
 const CORE = [
   "./",
@@ -56,15 +56,27 @@ self.addEventListener("fetch", event => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
-  if (event.request.mode === "navigate") {
+  const isAppData =
+    event.request.mode === "navigate" ||
+    url.pathname.endsWith("/index.html") ||
+    url.pathname.endsWith("/deck.json");
+
+  if (isAppData) {
     event.respondWith((async () => {
       try {
-        const fresh = await fetch(event.request);
-        const cache = await caches.open(CACHE_NAME);
-        cache.put("./index.html", fresh.clone());
+        const fresh = await fetch(event.request, { cache: "no-store" });
+        if (fresh && fresh.ok) {
+          const cache = await caches.open(CACHE_NAME);
+          await cache.put(event.request, fresh.clone());
+        }
         return fresh;
       } catch (_) {
-        return (await caches.match("./index.html")) || (await caches.match("./"));
+        return (
+          (await caches.match(event.request)) ||
+          (event.request.mode === "navigate"
+            ? (await caches.match("./index.html")) || (await caches.match("./"))
+            : Response.error())
+        );
       }
     })());
     return;
@@ -78,7 +90,7 @@ self.addEventListener("fetch", event => {
       const response = await fetch(event.request);
       if (response && response.ok) {
         const cache = await caches.open(CACHE_NAME);
-        cache.put(event.request, response.clone());
+        await cache.put(event.request, response.clone());
       }
       return response;
     } catch (_) {
