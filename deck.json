@@ -5,31 +5,31 @@
     {
       "id": 0,
       "name": "Il Matto",
-      "image": "cards/arcano_00.jpg",
-      "description": "Il Matto parla di apertura, libertà e attraversamento dell’ignoto. È l’energia che precede una forma definita: possibilità, viaggio, rischio e disponibilità a lasciarsi sorprendere.",
-      "upright": "Nuovo inizio, spontaneità, fiducia, curiosità, libertà dai vecchi schemi. Invita a muoversi anche senza avere già tutte le risposte.",
-      "reversed": "Impulsività, dispersione, ingenuità o fuga dalle conseguenze. Può indicare un salto prematuro oppure la paura di compierlo."
+      "image": "cards/00.webp",
+      "description": "Il matto, il folle, il giullare (Jester in inglese, da qui la raffigurazione della farfalla che ne porta il nome) rappresenta l’inizio di un percorso. Possiamo decidere come affrontare la nostra vita, senza pensieri, con una guida dettagliata del viaggio da intraprendere, in maniera lineare oppure completamente a caso. Siamo artefici del nostro destino, in solitaria oppure con altri compagni di viaggio. La situazione è quella rappresentata dal Mondo, ma il destino è ancora tutto da scrivere, una pagina bianca su cui poter pianificare e raccontare il nostro percorso.",
+      "upright": "Davanti a noi vi sono mille strade da intraprendere.",
+      "reversed": "Non sappiamo scegliere, distratti da nuovi inizi o privi da una visione a lungo termine."
     },
     {
       "id": 1,
       "name": "Il Mago",
-      "image": "cards/arcano_01.jpg",
-      "description": "Il Mago è la capacità di trasformare possibilità in azione. Unisce intenzione, strumenti, abilità e presenza: ciò che è disponibile può essere combinato per produrre qualcosa di nuovo.",
-      "upright": "Iniziativa, creatività, capacità, comunicazione e volontà focalizzata. È il momento di usare concretamente ciò che si possiede.",
-      "reversed": "Energia dispersa, manipolazione, insicurezza nelle proprie capacità o strumenti usati senza una direzione chiara."
+      "image": "cards/01.webp",
+      "description": "Con il Matto abbiamo ottenuto la consapevolezza di essere artefici del nostro destino. Siamo gli artisti, gli artigiani della creazione: plasmiamo le nostre vite, a immagine e somiglianza dei nostri desideri e ambizioni. Non dobbiamo però dimenticarci di essere un tutt’uno con il mondo dove viviamo: una coesistenza e coabitazione tra naturale umano, naturale non umano e artificiale. Trovare un equilibrio non predatorio, in un sistema di finitudine, è la sfida più grande che siamo chiamati ad affrontare. Abbiamo domato il fuoco, diviso gli atomi, incanalato il potere delle stelle, raggiunto confini invalicabili. Come eredi di un dio deforme, siamo crucibolo della creazione.",
+      "upright": "Siamo gli artefici del nostro destino, creatori di vite vissute.",
+      "reversed": "Costruiamo e abbandoniamo progetti, incapaci di produrre una scintilla d'accensione."
     },
     {
       "id": 2,
       "name": "La Papessa",
-      "image": "cards/arcano_02.jpg",
-      "description": "La Papessa custodisce ciò che non è ancora manifesto. Rappresenta intuizione, ascolto, conoscenza profonda, silenzio e una comprensione che matura prima di diventare azione.",
-      "upright": "Intuizione, osservazione, interiorità, pazienza e fiducia nei segnali sottili. Suggerisce di ascoltare prima di intervenire.",
-      "reversed": "Chiusura, passività, segreti, intuizione ignorata o difficoltà ad accedere a ciò che si sente davvero."
+      "image": "cards/02.webp",
+      "description": "La Papessa, la Sacerdotessa, la Sciamana, il Femminino Sacro, la Dea, rappresenta l’interposizione tra bene e male, negativo e positivo, uomo e donna. È la praticante della Magia che si fa sentiero tra gli opposti, il consiglio di seguire l’istinto rispetto alla ragione. L’Alta Sacerdotessa è tramite con il trascendente, con lo spirituale, rappresentato tecnologicamente dalle cuffie bluetooth, con il simbolo della mela, il frutto proibito della conoscenza portato in dono agli uomini dalla donna.",
+      "upright": "Vi è equilibrio in noi, senza pregiudizi o paura di ciò che non conosciamo",
+      "reversed": "Non riusciamo a comprendere davvero ciò che ci circonda, barricati nelle nostre convinzioni"
     },
     {
       "id": 3,
       "name": "L’Imperatrice",
-      "image": "cards/arcano_03.jpg",
+      "image": "cards/03.webp",
       "description": "L’Imperatrice è generazione, fertilità e crescita. Porta attenzione al corpo, alla natura, alla creatività e a tutto ciò che ha bisogno di cura per prendere forma.",
       "upright": "Espansione, creatività, nutrimento, piacere, abbondanza e capacità di far crescere persone, idee o progetti.",
       "reversed": "Creatività bloccata, eccesso di protezione, dipendenza, trascuratezza di sé o crescita che ha perso equilibrio."
@@ -37,7 +37,7 @@
     {
       "id": 4,
       "name": "L’Imperatore",
-      "image": "cards/arcano_04.jpg",
+      "image": "cards/04.webp",
       "description": "L’Imperatore rappresenta struttura, confini e responsabilità. È la forma che permette all’energia di durare: organizzazione, decisione e costruzione di basi solide.",
       "upright": "Stabilità, autorevolezza, disciplina, protezione e capacità di organizzare. Chiede di dare una struttura concreta a ciò che conta.",
       "reversed": "Rigidità, bisogno di controllo, autoritarismo oppure difficoltà a stabilire limiti e assumersi responsabilità."
@@ -45,7 +45,7 @@
     {
       "id": 5,
       "name": "Il Papa",
-      "image": "cards/arcano_05.jpg",
+      "image": "cards/05.webp",
       "description": "Il Papa riguarda trasmissione, valori condivisi e relazione con una tradizione o una comunità. Interroga ciò che impariamo, insegniamo e riconosciamo come significativo.",
       "upright": "Apprendimento, guida, confronto, appartenenza, ritualità e conoscenza trasmessa. Può indicare un insegnamento utile o una cornice condivisa.",
       "reversed": "Dogmatismo, conformismo, regole svuotate di senso oppure necessità di mettere in discussione un’autorità o una tradizione."
@@ -53,7 +53,7 @@
     {
       "id": 6,
       "name": "Gli Amanti",
-      "image": "cards/arcano_06.jpg",
+      "image": "cards/06.webp",
       "description": "Gli Amanti parlano di relazione e scelta. Non riguardano soltanto l’amore: mostrano il punto in cui desiderio, valori e responsabilità devono trovare una direzione comune.",
       "upright": "Unione, reciprocità, scelta consapevole, attrazione e allineamento tra ciò che si desidera e ciò in cui si crede.",
       "reversed": "Conflitto di valori, indecisione, disarmonia, dipendenza relazionale o scelta compiuta senza piena consapevolezza."
@@ -61,7 +61,7 @@
     {
       "id": 7,
       "name": "Il Carro",
-      "image": "cards/arcano_07.jpg",
+      "image": "cards/07.webp",
       "description": "Il Carro è movimento intenzionale. Forze diverse vengono tenute insieme e orientate verso una meta: avanzare richiede direzione, presenza e capacità di governare le tensioni.",
       "upright": "Determinazione, avanzamento, autonomia, viaggio, conquista di uno spazio e capacità di mantenere la rotta.",
       "reversed": "Perdita di direzione, fretta, conflitto tra spinte opposte, controllo eccessivo o energia che procede senza una meta condivisa."
@@ -69,7 +69,7 @@
     {
       "id": 8,
       "name": "La Giustizia",
-      "image": "cards/arcano_08.jpg",
+      "image": "cards/08.webp",
       "description": "La Giustizia mette in relazione azioni e conseguenze. Chiede misura, lucidità e responsabilità, cercando un equilibrio che non sia immobilità ma proporzione.",
       "upright": "Chiarezza, equità, responsabilità, decisione ponderata e capacità di vedere una situazione senza sottrarsi alle conseguenze.",
       "reversed": "Parzialità, autoinganno, squilibrio, giudizio eccessivo o difficoltà ad assumersi la propria parte di responsabilità."
@@ -77,7 +77,7 @@
     {
       "id": 9,
       "name": "L’Eremita",
-      "image": "cards/arcano_09.jpg",
+      "image": "cards/09.webp",
       "description": "L’Eremita è ricerca interiore e rallentamento. Si allontana dal rumore per distinguere ciò che conta, trasformando esperienza e solitudine in orientamento.",
       "upright": "Introspezione, prudenza, maturazione, ricerca, autonomia e bisogno di tempo per comprendere prima di procedere.",
       "reversed": "Isolamento, chiusura, eccessiva cautela, distanza emotiva o permanenza troppo lunga in una fase di ritiro."
@@ -85,7 +85,7 @@
     {
       "id": 10,
       "name": "La Ruota della Fortuna",
-      "image": "cards/arcano_10.jpg",
+      "image": "cards/10.webp",
       "description": "La Ruota della Fortuna rappresenta cicli, mutamento e condizioni che non dipendono interamente dalla volontà individuale. Ricorda che ogni equilibrio è temporaneo.",
       "upright": "Cambiamento, svolta, opportunità, sincronismo e capacità di adattarsi a un ciclo che si sta muovendo.",
       "reversed": "Resistenza al cambiamento, sensazione di perdita di controllo, ripetizione di uno schema o difficoltà a riconoscere il momento del passaggio."
@@ -93,7 +93,7 @@
     {
       "id": 11,
       "name": "La Forza",
-      "image": "cards/arcano_11.jpg",
+      "image": "cards/11.webp",
       "description": "La Forza è potenza governata attraverso presenza e relazione, non attraverso dominio brutale. Parla di coraggio, desiderio e capacità di stare con ciò che è intenso.",
       "upright": "Coraggio, vitalità, autocontrollo, pazienza e capacità di trasformare un impulso in energia creativa.",
       "reversed": "Insicurezza, rabbia trattenuta o incontrollata, esaurimento, fragilità dell’autostima o tentativo di dominare ciò che richiederebbe ascolto."
@@ -101,7 +101,7 @@
     {
       "id": 12,
       "name": "L’Appeso",
-      "image": "cards/arcano_12.jpg",
+      "image": "cards/12.webp",
       "description": "L’Appeso sospende il movimento abituale per cambiare prospettiva. È una pausa che può sembrare perdita di tempo ma permette di vedere ciò che prima restava invisibile.",
       "upright": "Sospensione, resa consapevole, cambio di prospettiva, attesa fertile e disponibilità a lasciare andare una vecchia posizione.",
       "reversed": "Stallo, sacrificio sterile, immobilità, vittimismo o resistenza a una trasformazione che richiede di rinunciare al controllo."
@@ -109,7 +109,7 @@
     {
       "id": 13,
       "name": "La Morte",
-      "image": "cards/arcano_13.jpg",
+      "image": "cards/13.webp",
       "description": "La Morte indica una trasformazione irreversibile: qualcosa termina perché altro possa emergere. Non parla necessariamente di morte fisica, ma di passaggi, separazioni e rigenerazione.",
       "upright": "Fine di un ciclo, trasformazione, distacco, pulizia e disponibilità ad attraversare un cambiamento profondo.",
       "reversed": "Resistenza alla fine, attaccamento, paura del cambiamento o permanenza artificiale in una forma che ha esaurito la propria funzione."
@@ -117,7 +117,7 @@
     {
       "id": 14,
       "name": "La Temperanza",
-      "image": "cards/arcano_14.jpg",
+      "image": "cards/14.webp",
       "description": "La Temperanza è incontro tra differenze, circolazione e trasformazione graduale. Cerca una composizione viva tra elementi diversi senza cancellarne le specificità.",
       "upright": "Equilibrio dinamico, cura, integrazione, dialogo, guarigione e capacità di trovare una misura sostenibile tra forze differenti.",
       "reversed": "— Questa carta, nel tuo mazzo, viene pescata sempre dritta.",
@@ -126,7 +126,7 @@
     {
       "id": 15,
       "name": "Il Diavolo",
-      "image": "cards/arcano_15.jpg",
+      "image": "cards/15.webp",
       "description": "Il Diavolo porta alla luce desiderio, materia, potere e legami difficili da riconoscere. Mostra ciò che attrae e trattiene, chiedendo di distinguere piacere, dipendenza e libertà.",
       "upright": "Desiderio, magnetismo, energia istintiva, rapporto con il corpo e consapevolezza delle proprie ombre e dei propri vincoli.",
       "reversed": "Liberazione da un legame, oppure negazione dell’ombra, compulsione, vergogna e difficoltà a riconoscere ciò che esercita potere su di noi."
@@ -134,7 +134,7 @@
     {
       "id": 16,
       "name": "La Torre",
-      "image": "cards/arcano_16.jpg",
+      "image": "cards/16.webp",
       "description": "La Torre è rottura di una struttura che non riesce più a reggere. L’evento può essere destabilizzante, ma rende visibile ciò che era stato costruito su basi fragili.",
       "upright": "Rivelazione, crollo di vecchie certezze, cambiamento improvviso e possibilità di ricostruire a partire da condizioni più reali.",
       "reversed": "Crisi evitata o rimandata, paura del cambiamento, tensione interna oppure tentativo di mantenere in piedi una struttura già compromessa."
@@ -142,7 +142,7 @@
     {
       "id": 17,
       "name": "Le Stelle",
-      "image": "cards/arcano_17.jpg",
+      "image": "cards/17.webp",
       "description": "Le Stelle arrivano dopo la rottura e riaprono lo spazio della fiducia. Parlano di orientamento, vulnerabilità, ispirazione e relazione con qualcosa di più ampio.",
       "upright": "Speranza, ispirazione, autenticità, apertura, rigenerazione e capacità di immaginare nuovamente un futuro.",
       "reversed": "Disillusione, perdita di fiducia, difficoltà a immaginare possibilità oppure distanza tra un ideale e la vita concreta."
@@ -150,7 +150,7 @@
     {
       "id": 18,
       "name": "La Luna",
-      "image": "cards/arcano_18.jpg",
+      "image": "cards/18.webp",
       "description": "La Luna attraversa il territorio dell’ambiguità, dell’immaginazione e dell’inconscio. Le forme non sono ancora nitide: occorre procedere riconoscendo emozioni, paure e proiezioni.",
       "upright": "Intuizione, sogno, sensibilità, immaginazione e disponibilità ad attraversare ciò che non è ancora pienamente comprensibile.",
       "reversed": "Confusione, paura, autoinganno, ansia, proiezioni o progressiva emersione di qualcosa che prima era nascosto."
@@ -158,7 +158,7 @@
     {
       "id": 19,
       "name": "Il Sole",
-      "image": "cards/arcano_19.jpg",
+      "image": "cards/19.webp",
       "description": "Il Sole porta visibilità, calore e vitalità. Ciò che era nascosto può essere visto e condiviso: è una carta di presenza, relazione e chiarezza.",
       "upright": "Gioia, energia, chiarezza, successo, apertura e capacità di vivere o condividere qualcosa con maggiore pienezza.",
       "reversed": "Entusiasmo ridotto, bisogno eccessivo di conferme, esposizione che pesa oppure una chiarezza che tarda ad arrivare."
@@ -166,7 +166,7 @@
     {
       "id": 20,
       "name": "Il Giudizio",
-      "image": "cards/arcano_20.jpg",
+      "image": "cards/20.webp",
       "description": "Il Giudizio è risveglio e chiamata. Qualcosa del passato viene riletto da una nuova posizione e può finalmente essere integrato, trasformato o lasciato andare.",
       "upright": "Consapevolezza, rinascita, risposta a una chiamata, riconciliazione con il passato e decisione che apre una nuova fase.",
       "reversed": "Esitazione, autocritica, paura del giudizio, difficoltà a rispondere a una chiamata o a riconoscere ciò che è ormai evidente."
@@ -174,8 +174,8 @@
     {
       "id": 21,
       "name": "Il Mondo",
-      "image": "cards/arcano_21.jpg",
-      "description": "Il limite di 1,5° per limitare il riscaldamento globale è stato superato.\nParte dei sistemi terrestri è vicina al punto di non ritorno.\n\nSiamo in caduta libera verso l’ignoto.\n\nNell’epoca definita come Antropocene, la crescita senza fine e lo sviluppo tecnologico incondizionato stanno segnando il destino di miliardi di esseri viventi e dell’intero pianeta, in pericolo a causa del riscaldamento globale di origine antropica. Il Mondo, l’ultimo Arcano Maggiore, è nella sua accezione rovesciata: ci avviciniamo a qualcosa che segna la fine di un viaggio o di un'era. Sono molti i traguardi e i successi raggiunti lungo il cammino, ma c'è uno strano vuoto che ci riempie quando guardiamo indietro, come se non tutti i pezzi si unissero. Qual è il pezzo mancante? Siamo connessi con le nostre azioni? Coesistiamo con l’Altro? Cosa ci impedisce di sentirci completi? L’opera “XXI – Anthropocene” vuole rappresentare come le nostre azioni, per quanto connesse alla nostra stessa esistenza, stiano compromettendo l’intero pianeta e la totalità degli ecosistemi. Mentre agiamo nel nome di un progresso che dovrebbe farci raggiungere le stelle e ottenere l’immortalità, la nostra casa sta bruciando, disgregandosi tra polvere e cenere. La xilofagia del tarlo è nutrimento e vita, sopravvivenza ante litteram: ma terminate le cortecce, l’insetto passerà alla cornice, finché l’intera struttura collasserà staccandosi dal muro e portandolo alla ricerca di nuovo cibo. Noi non abbiamo un’altra cornice. Noi non abbiamo un Pianeta B.",
+      "image": "cards/21.webp",
+      "description": "Il limite di 1,5° per limitare il riscaldamento globale è stato superato. Il Mondo vuole rappresentare come le nostre azioni, per quanto connesse alla nostra stessa esistenza, stiano compromettendo l’intero pianeta e la totalità degli ecosistemi. La xilofagia del tarlo è nutrimento e vita, sopravvivenza ante litteram: ma terminate le cortecce, l’insetto passerà alla cornice, finché l’intera struttura collasserà staccandosi dal muro e portandolo alla ricerca di nuovo cibo. Noi non abbiamo un’altra cornice. Noi non abbiamo un Pianeta B.",
       "upright": "Abbiamo raggiunto i nostri obiettivi in armonia con il tutto",
       "reversed": "Il nostro viaggio si conclude, ma a caro prezzo"
     }
