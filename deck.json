@@ -1,6 +1,6 @@
 {
   "deck_name": "Tarocchi del Mondo che verrà",
-  "version": "1.1",
+  "version": "1.1-descrizioni",
   "cards": [
     {
       "id": 0,
@@ -135,7 +135,7 @@
       "id": 16,
       "name": "La Torre",
       "image": "cards/16.webp",
-      "description": "Siamo testimoni dei prodigi del progresso, uno sciame brulicante di esseri viventi che raggiunge ogni angolo del globo, piantando le proprie bandiere e costruendo i propri torrioni a presidio del territorio. In un Risiko vivente, giochiamo con i confini e coloriamo le mappe con i colori dei nostri gonfaloni. La Torre di Babele non punta al cielo, ma si estende piatta lungo l’intero globo terracqueo, crucibolo di lingue, tradizioni, culture, religioni, ideali, sogni, ambizioni, costumi. Ricopriamo la terra con strati di cemento e metallo, legno e pietra lavorata, come un alveare che si autoreplica all’infinito. Animali sociali, viviamo solitari in cellette, ognuno con il proprio compito, ognuno con un percorso già tracciato. Costruiamo mondi digitali e sogni artificiali, per alienarci dal pianeta reale che ci ospita. Viviamo in simulazioni della nostra stessa vita, interpretando i nostri simulacri. Spenta la connessione, il castello crolla e rimangono solo macerie. Macerie su cui costruire, per riscoprirsi vivi.\n",
+      "description": "Siamo testimoni dei prodigi del progresso, uno sciame brulicante di esseri viventi che raggiunge ogni angolo del globo, piantando le proprie bandiere e costruendo i propri torrioni a presidio del territorio. La Torre di Babele non punta al cielo, ma si estende piatta lungo l’intero globo terracqueo, crucibolo di lingue, tradizioni, culture, religioni, ideali, sogni, ambizioni, costumi. Ricopriamo la terra con strati di cemento e metallo, legno e pietra lavorata, come un alveare che si autoreplica all’infinito. Animali sociali, viviamo solitari in cellette, ognuno con il proprio compito, ognuno con un percorso già tracciato. Costruiamo mondi digitali e sogni artificiali, per alienarci dal pianeta reale che ci ospita. Spenta la connessione, il castello crolla e rimangono solo macerie. Macerie su cui costruire, per riscoprirsi vivi.\n",
       "upright": "Collaboriamo e cooperiamo per costruire un futuro migliore.",
       "reversed": "Costruiamo senza interagire con le altre specie viventi, spinti dall'individualismo."
     },
