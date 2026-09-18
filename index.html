@@ -441,8 +441,8 @@ function drawSpecific(n,mode="single"){
 
     const sections=[
       ["Descrizione generale", c.description || ""],
-      ["Significato dritto", c.upright || ""],
-      ["Significato rovesciato", c.reversed || ""]
+      [c.reversed ? "Significato rovesciato" : "Significato dritto",
+       c.reversed ? (c.reversed || "") : (c.upright || "")]
     ];
 
     sections.forEach(([label,text])=>{
@@ -458,16 +458,6 @@ function drawSpecific(n,mode="single"){
       meaning.appendChild(section);
     });
 
-    const current=document.createElement("div");
-    current.className="meaning-section meaning-current";
-    const currentLabel=document.createElement("div");
-    currentLabel.className="meaning-label";
-    currentLabel.textContent="Nella pesca";
-    const currentText=document.createElement("div");
-    currentText.className="meaning-text";
-    currentText.textContent=c.reversed ? (c.reversed || "") : (c.upright || "");
-    current.append(currentLabel,currentText);
-    meaning.appendChild(current);
 
     button.addEventListener("click",()=>{
       if(shell.classList.contains("revealed")) return;

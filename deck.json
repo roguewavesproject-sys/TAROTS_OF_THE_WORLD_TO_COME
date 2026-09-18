@@ -30,41 +30,42 @@
       "id": 3,
       "name": "L’Imperatrice",
       "image": "cards/03.webp",
-      "description": "L’Imperatrice è generazione, fertilità e crescita. Porta attenzione al corpo, alla natura, alla creatività e a tutto ciò che ha bisogno di cura per prendere forma.",
-      "upright": "Espansione, creatività, nutrimento, piacere, abbondanza e capacità di far crescere persone, idee o progetti.",
-      "reversed": "Creatività bloccata, eccesso di protezione, dipendenza, trascuratezza di sé o crescita che ha perso equilibrio."
+      "description": "La mantide è la matriarca per antonomasia. Regina e predatrice, amante temibile e archetipo di un’indipendenza femminile radicale e spietata. La mantide orchidea, con la sua colorazione seducente e le sue movenze sensuali incarna il controllo totale sulla propria sessualità e riproduzione (concetto richiamato dal sex toy), arrivando all’estremo a dominare o annullare la figura maschile. L’Imperatrice è Venere, ma anche Inanna, l’unione di amore, sesso e guerra. Al pari dell’Imperatore è una carte di potere temporale, di dominio assoluto, in bilico tra autorevolezza e autoritarismo. Dove il potere si radicalizza, non vi è progresso o cambiamento, ma solo uno slittamento di prospettiva.",
+      "upright": "Esercito un potere diverso da quello costituito, ma è davvero differente?
+      "reversed": "Con la mia consapevolezza, modifico lo status quo."
     },
     {
       "id": 4,
       "name": "L’Imperatore",
       "image": "cards/04.webp",
-      "description": "L’Imperatore rappresenta struttura, confini e responsabilità. È la forma che permette all’energia di durare: organizzazione, decisione e costruzione di basi solide.",
-      "upright": "Stabilità, autorevolezza, disciplina, protezione e capacità di organizzare. Chiede di dare una struttura concreta a ciò che conta.",
-      "reversed": "Rigidità, bisogno di controllo, autoritarismo oppure difficoltà a stabilire limiti e assumersi responsabilità."
+      "description": "la carta dell’Imperatore vuole rappresentare i nuovi simboli del potere odierno, regalie imperiali. Al posto dello scettro, della spada imperiale e relativo fodero, abbiamo le declinazioni contemporanee dell’esercizio di dominio: l’apparato militare, l’apparato satellitare e informatico e, infine, una bandiera indefinita, vessillo di confini nazionali e di nuove conquiste. Il teschio di un pinguino imperatore, su cui metaforicamente è piantata la bandiera, rappresenta la vittima sacrificale di un sistema predatorio e al contempo il memento della sorte che attende ogni essere vivente a causa di questa conquista senza limiti. L’Imperatore saggio sa che la crescita infinita è un mito, che la sopravvivenza si basa su cicli in equilibrio. Serve sostituire gli strumenti di oppressione con una cooperazione globale e di lungo termine.",
+      "upright": "Mi impongo con autoritarismo, senza mettermi in discussione.",
+      "reversed": "Consapevole delle fallacie del sistema, utilizzo i miei privilegi per cambiare il mondo attorno a me."
     },
     {
       "id": 5,
       "name": "Il Papa",
       "image": "cards/05.webp",
-      "description": "Il Papa riguarda trasmissione, valori condivisi e relazione con una tradizione o una comunità. Interroga ciò che impariamo, insegniamo e riconosciamo come significativo.",
-      "upright": "Apprendimento, guida, confronto, appartenenza, ritualità e conoscenza trasmessa. Può indicare un insegnamento utile o una cornice condivisa.",
-      "reversed": "Dogmatismo, conformismo, regole svuotate di senso oppure necessità di mettere in discussione un’autorità o una tradizione."
+      "description": "Al potere temporale si affianca il potere spirituale, che governa corpo e mente in egual misura. È lo sciamano, il sacerdote, il maestro, che incarna il ruolo dello psicopompo tra il materiale e l’immateriale. Il suo sguardo vede l’invisibile e attraverso di lui si tocca l’infinito. Ma il potere corrompe. La figura sacerdotale maschile, tramite in terra con il divino, si eleva a ierocrazia. 
+O in estremo diventa Dio stesso, padre e padrone dell’umanità tutta e custode della verità suprema. La bandiera unisce tutti verso un pensiero unico, l’idea primigena che non ammette contraddizioni. La carta del Papa invita a diffidare degli idoli dorati, dai falsi profeti, dagli oracoli artificiali.",
+      "upright": "Considero le mie credenze e convinzioni come unica verità.",
+      "reversed": "Rimango aperto all'ascolto e amplio i miei orizzonti."
     },
     {
       "id": 6,
-      "name": "Gli Amanti",
+      "name": "L3 Amanti",
       "image": "cards/06.webp",
-      "description": "Gli Amanti parlano di relazione e scelta. Non riguardano soltanto l’amore: mostrano il punto in cui desiderio, valori e responsabilità devono trovare una direzione comune.",
-      "upright": "Unione, reciprocità, scelta consapevole, attrazione e allineamento tra ciò che si desidera e ciò in cui si crede.",
-      "reversed": "Conflitto di valori, indecisione, disarmonia, dipendenza relazionale o scelta compiuta senza piena consapevolezza."
+      "description": "La carta dell3 Amanti vuole essere l’auspicio che il mazzo dei “Tarocchi del mondo che verrà” porta con sé: la coesistenza tra naturale e artificiale, l’abbraccio tra natura e tecnologia. L’agapanthus, il fiore dell’amore, rappresenta l’amore incondizionato che il pianeta continua a darci, nonostante viviamo nell’antropocene, nel dominio dell’uomo sulla natura quale mandato divino. Ma un nuovo modo di vivere in equilibrio è possibile. Questo glitch nel sistema, questo fiore che ancora riesce a crescere in un paesaggio ormai urbanizzato, diviene simbolo di speranza e rinascita. Un futuro dove si possa vivere in armonia tra uomo, ambiente e altre specie viventi è sognabile, non mera utopia, ma concreta possibilità.",
+      "upright": "Coesisto con il mondo che mi circonda.",
+      "reversed": "Non riesco a empatizzare con il mondo attorno a me, chiuso nel mio individualismo."
     },
     {
       "id": 7,
       "name": "Il Carro",
       "image": "cards/07.webp",
-      "description": "Il Carro è movimento intenzionale. Forze diverse vengono tenute insieme e orientate verso una meta: avanzare richiede direzione, presenza e capacità di governare le tensioni.",
-      "upright": "Determinazione, avanzamento, autonomia, viaggio, conquista di uno spazio e capacità di mantenere la rotta.",
-      "reversed": "Perdita di direzione, fretta, conflitto tra spinte opposte, controllo eccessivo o energia che procede senza una meta condivisa."
+      "description": "L’umanità ha iniziato a muoversi nel mondo grazie alla ruota, alle prime navi, alle ali artificiali: la possibilità di spostarsi agevolmente ovunque ha decretato la sua vittoria su qualsiasi pericolo e sbloccato nuovi orizzonti di pensiero e azione. Guidati dalla stella polare, i navigatori potevano percorrere rotte mai esplorate, alla luce delle stelle e della luna. Grazie alla tecnologia si scavano montagne, tunnel sottomarini, si collega ogni continente. Ma la facilità ha un prezzo, ogni scorciatoia richiede un tributo. Utilizzare la tecnologia non significa diventarne dipendenti, o addirittura vivere in funzione di essa.",
+      "upright": "Cerco di utilizzare gli strumenti creati dall'uomo senza distruggere il pianeta.",
+      "reversed": "Ogni nuovo traguardo, ogni conquista, lascia dietro di sè una scia di devastazione."
     },
     {
       "id": 8,
